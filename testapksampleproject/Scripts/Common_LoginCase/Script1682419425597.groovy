@@ -49,9 +49,9 @@ Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/Continue'), 0)
 
 Mobile.delay(3)
 
-//Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/android.widget.Billing') , 0)
+//Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/Billing') , 0)
 Mobile.delay(2)
-//Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/android.widget.Iogout'), 0)
+//Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/Iogout'), 0)
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/Setup'), 0)
 
 Mobile.delay(2)
