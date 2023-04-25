@@ -19,52 +19,52 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startApplication("C:/Core/queueBusterAPPRelease_3.21.apk", false)
 Mobile.delay(2)
 //Mobile.setText(findTestObject, null, 0)
-//Mobile.tap(findTestObject('Object Repository/TC33OR/android.widget.TextView - Login (1)'), 1)
+//Mobile.tap(findTestObject('null'), 1)
 
-Mobile.tap(findTestObject('Object Repository/TC33OR/android.widget.TextView - Login001'), 0)
+Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/InitialLoginButton'), 0)
 
 //Mobile.setText(findTestObject('Application/Graphics/android.widget.TextView - Xfermodes'),'Your text here', GlobalVariable.G_Timeout)
 Mobile.delay(3)
-Mobile.setText(findTestObject('Object Repository/TC33OR/android.widget.EditText - Enter Username (1)'), '8178331074', 0)
-//Mobile.setText(findTestObject('Object Repository/TC33OR/android.widget.EditText - Enter Username') , "234567", 3)
+Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/EnterUsername'), '8178331074', 0)
+//Mobile.setText(findTestObject('null') , "234567", 3)
 Mobile.delay(2)
-Mobile.setText(findTestObject('Object Repository/TC33OR/android.widget.EditText - Enter Password') , '013606', 0)
+Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/EnterPassword') , '013606', 0)
 Mobile.delay(2)
 
-Mobile.tap(findTestObject('Object Repository/TC33OR/UserPassLogin') , 0)
-
-Mobile.delay(2)
+Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/LoginPostUserPass') , 0)
 
 Mobile.delay(2)
 
-Mobile.setText(findTestObject('Object Repository/TC33OR/SearchStore'), "NStore1", 0)
+Mobile.delay(2)
+
+Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/SearchStore'), "NStore1", 0)
 
 Mobile.delay(2)
 
-Mobile.tap(findTestObject('Object Repository/TC33OR/RadioNStore1'), 0)
+Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/RadioNStore1'), 0)
 
 Mobile.delay(2)
 
-Mobile.tap(findTestObject('Object Repository/TC33OR/android.widget.TextView - Continue'), 0)
+Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/Continue'), 0)
 
 Mobile.delay(3)
 
-//Mobile.tap(findTestObject('Object Repository/TC33OR/android.widget.Billing') , 0)
+//Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/android.widget.Billing') , 0)
 Mobile.delay(2)
-//Mobile.tap(findTestObject('Object Repository/TC33OR/android.widget.Iogout'), 0)
-Mobile.tap(findTestObject('Object Repository/TC33OR/Setup'), 0)
-
-Mobile.delay(2)
-
-Mobile.tap(findTestObject('Object Repository/TC33OR/Business Profile'), 0)
+//Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/android.widget.Iogout'), 0)
+Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/Setup'), 0)
 
 Mobile.delay(2)
 
-Mobile.tap(findTestObject('Object Repository/TC33OR/Master Logout'), 0)
+Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/BusinessProfile'), 0)
 
 Mobile.delay(2)
 
-Mobile.tap(findTestObject('Object Repository/TC33OR/YesMasterLogout'), 0)
+Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/MasterLogout'), 0)
+
+Mobile.delay(2)
+
+Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/YesMasterLogout'), 0)
 
 Mobile.delay(2)
 

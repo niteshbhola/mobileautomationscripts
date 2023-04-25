@@ -23,13 +23,13 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Core\\queueBusterAPPRelease_3.21.apk', true)
 Mobile.delay(2)
-Mobile.tap(findTestObject('Object Repository/TC33OR/android.widget.TextView - Login (1)'), 4)
+Mobile.tap(findTestObject('null'), 4)
 Mobile.delay(2)
-Mobile.setText(findTestObject('Object Repository/TC33OR/android.widget.EditText - Enter Username (1)'), '8178331074', 0)
+Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/EnterUsername'), '8178331074', 0)
 Mobile.delay(2)
-Mobile.setText(findTestObject('Object Repository/TC33OR/android.widget.EditText - Enter Password'), '013606', 0)
+Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/EnterPassword'), '013606', 0)
 Mobile.delay(2)
-Mobile.tap(findTestObject('Object Repository/TC33OR/android.widget.TextView - Log In'), 0)
+Mobile.tap(findTestObject('null'), 0)
 Mobile.delay(2)
 //Mobile.closeApplication()
 
