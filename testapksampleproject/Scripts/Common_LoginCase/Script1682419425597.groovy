@@ -35,36 +35,38 @@ Mobile.delay(2)
 
 Mobile.delay(2)
 
-Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/SearchStore'), "NStore1", 0)
+Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/SearchStore'), "NStore1", 30)
 
 Mobile.delay(2)
 
-Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/RadioNStore1'), 0)
+Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/RadioNStore1'), 30)
 
 Mobile.delay(2)
 
-Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/Continue'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/Continue'), 30)
 
 Mobile.delay(3)
 
 //Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/Billing') , 0)
 Mobile.delay(2)
 //Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/Iogout'), 0)
-Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/Setup'), 0)
+Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/Setup'), 30)
 
 Mobile.delay(2)
 
-Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/BusinessProfile'), 0)
+Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/BusinessProfile'), 30)
 
 Mobile.delay(2)
 
-Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/MasterLogout'), 0)
+Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/MasterLogout'), 30)
 
 Mobile.delay(2)
 
-Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/YesMasterLogout'), 0)
+Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/YesMasterLogout'), 30)
 
-Mobile.delay(2)
+Mobile.delay(4)
+
 
 Mobile.closeApplication()
 
