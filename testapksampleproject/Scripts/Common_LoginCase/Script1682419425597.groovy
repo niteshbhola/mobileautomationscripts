@@ -18,8 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 Mobile.startApplication("C:/Core/queueBusterAPPRelease_3.21.apk", false)
 Mobile.delay(2)
-//Mobile.setText(findTestObject, null, 0)
-//Mobile.tap(findTestObject('null'), 1)
 
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/InitialLoginButton'), 0)
 
