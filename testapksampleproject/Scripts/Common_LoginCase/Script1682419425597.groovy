@@ -29,7 +29,7 @@ Mobile.delay(2)
 Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/EnterPassword') , '013606', 0)
 Mobile.delay(2)
 
-Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/LoginPostUserPass') , 0)
+Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/LoginPostUserPass') , 30)
 
 Mobile.delay(2)
 
