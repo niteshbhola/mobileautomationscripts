@@ -21,42 +21,48 @@ Mobile.delay(2)
 
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/InitialLoginButton'), 0)
 
-//Mobile.setText(findTestObject('Application/Graphics/android.widget.TextView - Xfermodes'),'Your text here', GlobalVariable.G_Timeout)
-Mobile.delay(3)
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/EnterUsername'), '8178331074', 0)
-//Mobile.setText(findTestObject('null') , "234567", 3)
-Mobile.delay(2)
+
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/EnterPassword') , '013606', 0)
-Mobile.delay(2)
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/LoginPostUserPass') , 30)
 
-Mobile.delay(2)
+//Mobile.delay(null)
 
-Mobile.delay(2)
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/SearchStore'), "NStore1", 30)
 
-Mobile.delay(2)
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+//Mobile.waitForElementPresent(findTestObject('Object Repository/Common_LoginCaseOR/RadioNStore1') ,100)
+//Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/MasterLogout'), 100)
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/RadioNStore1'), 30)
 
-Mobile.delay(2)
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-
-Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/Continue'), 30)
+Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/Continue'), 60)
 
 Mobile.delay(3)
 
-//Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/Billing') , 0)
+//Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/Iogout') , 100)
 Mobile.delay(2)
-//Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/Iogout'), 0)
+
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/Setup'), 30)
 
 Mobile.delay(2)
 
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/BusinessProfile'), 30)
 
+Mobile.delay(2)
+
+//Mobile.takeAreaScreenshot("findTestObject('Object Repository/Common_LoginCaseOR/LoginPostUserPass')",100)
+Mobile.delay(3)
+//Mobile.doubleTap(findTestObject('Object Repository/Common_LoginCaseOR/MasterLogout') ,100)
 Mobile.delay(2)
 
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/MasterLogout'), 30)
@@ -66,7 +72,6 @@ Mobile.delay(2)
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/YesMasterLogout'), 30)
 
 Mobile.delay(4)
-
 
 Mobile.closeApplication()
 
