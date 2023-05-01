@@ -64,7 +64,15 @@ Mobile.delay(2)
 Mobile.delay(3)
 //Mobile.doubleTap(findTestObject('Object Repository/Common_LoginCaseOR/MasterLogout') ,100)
 Mobile.delay(2)
+Mobile.verifyMatch("47411","47411", false)
 
+if (Mobile.verifyMatch("47411","47411", false)) {
+	print("right info")
+}
+else ( print("wrong info")){
+	
+}
+Mobile.delay(2)
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/MasterLogout'), 30)
 
 Mobile.delay(2)
