@@ -16,7 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-Mobile.startApplication("C:/Core/queueBusterAPPRelease_3.21.apk", false)
+Mobile.startApplication("C:/Core/QB3.25.apk", false)
 Mobile.delay(2)
 
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/InitialLoginButton'), 0)
@@ -33,8 +33,15 @@ Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/LoginPostUserPas
 //Mobile.delay(null)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+//Mobile.tap(findTestObject(  'Object Repository/Common_LoginCaseOR/SearchStore'  ), 30)
+Mobile.delay(3)
 
-Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/SearchStore'), "NStore1", 30)
+//Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/SearchStore (1)'), "NStore1", 10)
+
+//Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/SearchStore'), "NStore1", 30)
+Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/SearchByName'),"NStore1", 30)
+
+
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 //Mobile.waitForElementPresent(findTestObject('Object Repository/Common_LoginCaseOR/RadioNStore1') ,100)
