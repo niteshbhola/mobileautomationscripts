@@ -16,29 +16,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
-Mobile.callTestCase(findTestCase('Test Cases/Common_LoginCase'), null, FailureHandling.STOP_ON_FAILURE)
-Mobile.delay(30)
-Mobile.tap(findTestObject('Object Repository/SC001_TC001_OR/TextViewCust2'), 30)
-Mobile.delay(3)
-Mobile.tap(findTestObject('Object Repository/SC001_TC001_OR/TextViewAll Customers') , 10)
-Mobile.delay(3)
-Mobile.setText(findTestObject('Object Repository/SC001_TC001_OR/TextView - SearchName'), "J", 10)
-Mobile.delay(3)
-//Mobile.setText(findTestObject('Object Repository/SC001_TC001_OR/TextView - SearchName'),findTestData("TestData").getValue("CustomerName", 1), 10)
-
-
-Mobile.delay(3)
-Mobile.tap(findTestObject('Object Repository/SC001_TC001_OR/TextView-8178331074'), 10)
-Mobile.delay(3)
-Mobile.tap(findTestObject('Object Repository/SC001_TC001_OR/TextView - Add Balance'), 10)
-Mobile.delay(3)
-Mobile.tap(findTestObject('Object Repository/SC001_TC001_OR/TextView - Cash'), 10)
-Mobile.delay(3)
-//Mobile.tap(findTestObject('Object Repository/SC001_TC001_OR/Amount-EditText-30000'), 10)
-Mobile.setText(findTestObject('Object Repository/SC001_TC001_OR/Amount-EditText-30000'),"300", 10)
-Mobile.delay(3)
-Mobile.tap(findTestObject('Object Repository/SC001_TC001_OR/android.widget.TextView - Receive'), 10)
-Mobile.delay(4)
-
-
+Mobile.startApplication("C:/Core/QB3.25.apk", false)
+Mobile.delay(2)

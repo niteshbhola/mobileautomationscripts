@@ -16,36 +16,31 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+
 Mobile.startApplication("C:/Core/QB3.25.apk", false)
 Mobile.delay(2)
 
-Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/InitialLoginButton'), 0)
+Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/InitialLoginButton'), 10)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/EnterUsername'), '8178331074', 0)
+Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/EnterUsername'), '8178331074', 10)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/EnterPassword') , '013606', 0)
+Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/EnterPassword') , '013606', 10)
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/LoginPostUserPass') , 30)
 
-//Mobile.delay(null)
-
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-//Mobile.tap(findTestObject(  'Object Repository/Common_LoginCaseOR/SearchStore'  ), 30)
+
 Mobile.delay(3)
 
-//Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/SearchStore (1)'), "NStore1", 10)
 
-//Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/SearchStore'), "NStore1", 30)
+
 Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/SearchByName'),"NStore1", 30)
 
-
-
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-//Mobile.waitForElementPresent(findTestObject('Object Repository/Common_LoginCaseOR/RadioNStore1') ,100)
-//Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/MasterLogout'), 100)
+
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/RadioNStore1'), 30)
@@ -55,9 +50,17 @@ Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/Continue'), 60)
 
 Mobile.delay(3)
-
-//Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/Iogout') , 100)
 Mobile.delay(2)
+
+
+
+
+
+
+
+/*
+
+
 
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/Setup'), 30)
 
@@ -67,11 +70,10 @@ Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/BusinessProfile'
 
 Mobile.delay(2)
 
-//Mobile.takeAreaScreenshot("findTestObject('Object Repository/Common_LoginCaseOR/LoginPostUserPass')",100)
 Mobile.delay(3)
-//Mobile.doubleTap(findTestObject('Object Repository/Common_LoginCaseOR/MasterLogout') ,100)
+
 Mobile.delay(2)
-//Mobile.verifyMatch("47411","47411", false)
+
 
 if (Mobile.verifyMatch("47411","47411", false)) {
 	print("right info")
@@ -90,4 +92,4 @@ Mobile.delay(4)
 
 Mobile.closeApplication()
 
-
+*/
