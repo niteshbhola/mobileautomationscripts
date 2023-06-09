@@ -25,8 +25,7 @@ Mobile.tap(findTestObject('Object Repository/SC001_TC001_OR/TextViewAll Customer
 Mobile.delay(3)
 Mobile.setText(findTestObject('Object Repository/SC001_TC001_OR/TextView - SearchName'), "J", 10)
 Mobile.delay(3)
-//Mobile.setText(findTestObject('Object Repository/SC001_TC001_OR/TextView - SearchName'),findTestData("TestData").getValue("CustomerName", 1), 10)
-
+//Mobile.setText(findTestObject('Object Repository/SC001_TC001_OR/TextView - SearchName'),findTestData("TestData").getValue("CUSTOMERNAME", 1), 10)
 
 Mobile.delay(3)
 Mobile.tap(findTestObject('Object Repository/SC001_TC001_OR/TextView-8178331074'), 10)
@@ -40,5 +39,7 @@ Mobile.setText(findTestObject('Object Repository/SC001_TC001_OR/Amount-EditText-
 Mobile.delay(3)
 Mobile.tap(findTestObject('Object Repository/SC001_TC001_OR/android.widget.TextView - Receive'), 10)
 Mobile.delay(4)
+
+
 
 
