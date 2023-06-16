@@ -16,78 +16,24 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
+for (int i=1; i<=3; i++) {
 Mobile.startApplication("C:/Core/QB3.25.apk", false)
 Mobile.delay(2)
 
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/InitialLoginButton'), 10)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/EnterUsername'), '8178331074', 10)
+//Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/EnterUsername'), '8178331074', 10)
+Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/EnterUsername'),findTestData("TestData").getValue("USER", i), 10)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/EnterPassword') , '013606', 10)
+//Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/EnterPassword') , '013606', 10)
+Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/EnterPassword'),findTestData("TestData").getValue("PASS", i), 10)
+
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/LoginPostUserPass') , 30)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.delay(3)
-
-Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/SearchByName'),"NStore1", 30)
-
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/RadioNStore1'), 30)
-
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/Continue'), 60)
-
-Mobile.delay(3)
-//Mobile.delay(2)
-
-
-
-
-
-
-
-/*
-
-
-
-Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/Setup'), 30)
-
-Mobile.delay(2)
-
-Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/BusinessProfile'), 30)
-
-Mobile.delay(2)
-
-Mobile.delay(3)
-
-Mobile.delay(2)
-
-
-if (Mobile.verifyMatch("47411","47411", false)) {
-	print("right info")
-}
-else ( print("wrong info")){
-	
-}
-Mobile.delay(2)
-Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/MasterLogout'), 30)
-
-Mobile.delay(2)
-
-Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/YesMasterLogout'), 30)
-
-Mobile.delay(4)
-
 Mobile.closeApplication()
-
-*/
+}
