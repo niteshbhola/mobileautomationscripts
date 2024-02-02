@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC66</name>
+   <name>dummycase</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>18529b1d-0fa8-4403-b022-52bf1865ca5b</testCaseGuid>
+   <testCaseGuid>1866b2a7-5a65-4d1f-ad10-79703219ba87</testCaseGuid>
 </TestCaseEntity>

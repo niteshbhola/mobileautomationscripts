@@ -16,10 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
-Mobile.startApplication("C:/Users/HP/Desktop/queueBusterAPPRelease_3.49", false)
+Mobile.startApplication("C:/Core/QB3.25.apk", false)
 Mobile.delay(2)
-//C:\Users\HP\Desktop
 
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/InitialLoginButton'), 10)
 
@@ -49,17 +47,6 @@ Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/Continue'), 60)
 
 Mobile.delay(3)
-//Mobile.delay(2)
-
-
-
-
-
-
-
-/*
-
-
 
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/Setup'), 30)
 
@@ -91,4 +78,18 @@ Mobile.delay(4)
 
 Mobile.closeApplication()
 
-*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

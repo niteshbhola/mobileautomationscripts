@@ -29,8 +29,6 @@ Mobile.delay(30)
 //Mobile.setText(findTestObject('Object Repository/SC001_TC001_OR/TextView - SearchName'),findTestData("TestData").getValue("CUSTOMERNAME", 1), 10)
 Mobile.verifyMatch("Deepak", "Deepak", false)
 
-
-
 Mobile.delay(3)
 
 Mobile.tap(findTestObject('Object Repository/SC001_TC001_OR/TextView-8178331074'), 10)
