@@ -17,9 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication("C:/Users/HP/Desktop/queueBusterAPPRelease_3.49", false)
+//Mobile.startApplication("C:\\Users\\queueBusterAPPRelease_3.53", true)
+
+Mobile.startApplication("C:/Users/HP/Desktop/queueBusterAPPRelease_3.53.apk", true)
 Mobile.delay(2)
-//C:\Users\HP\Desktop
+//C:\Users\HP\Desktop  queueBusterAPPDebug_3.45
 
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/InitialLoginButton'), 10)
 
@@ -37,6 +39,7 @@ Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 Mobile.delay(3)
 
 Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/SearchByName'),"NStore1", 30)
+//Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/SearchByName'), 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
@@ -49,7 +52,7 @@ Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/Continue'), 60)
 
 Mobile.delay(3)
-//Mobile.delay(2)
+
 
 
 

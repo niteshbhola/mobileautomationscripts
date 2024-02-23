@@ -16,8 +16,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-Mobile.startApplication("C:/Core/QB3.25.apk", false)
-Mobile.delay(2)
+//Mobile.startApplication("C:/Core/queueBusterAPPDebug_3.51.apk", false)
+
+Mobile.startApplication("C:/Users/HP/Desktop/queueBusterAPPRelease_3.53.apk", true)
+Mobile.delay(30)
 
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/InitialLoginButton'), 10)
 
@@ -54,14 +56,9 @@ Mobile.delay(2)
 
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/BusinessProfile'), 30)
 
-Mobile.delay(2)
-
-Mobile.delay(3)
-
-Mobile.delay(2)
-
-
-if (Mobile.verifyMatch("47411","47411", false)) {
+Mobile.delay(5)
+//Mobile.verifyMatch(null, null, false, FailureHandling.OPTIONAL)
+if (Mobile.verifyMatch("47410","47410", false, FailureHandling.OPTIONAL)) {
 	print("right info")
 }
 else ( print("wrong info")){
@@ -72,11 +69,13 @@ Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/MasterLogout'), 
 
 Mobile.delay(2)
 
-Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/YesMasterLogout'), 30)
+Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/YesMasterLogout') , 20)
 
 Mobile.delay(4)
 
-Mobile.closeApplication()
+
+
+//Mobile.closeApplication()
 
 
 

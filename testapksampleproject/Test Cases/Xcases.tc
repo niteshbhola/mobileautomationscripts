@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SC001_TC001</name>
+   <name>Xcases</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>817b9400-8386-4d78-9d0a-b644990b3da5</testCaseGuid>
+   <testCaseGuid>520dee7f-f699-426d-91e4-bad0dbae77c6</testCaseGuid>
 </TestCaseEntity>
