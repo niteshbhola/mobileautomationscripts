@@ -38,8 +38,8 @@ Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.delay(3)
 
-Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/SearchByName'),"NStore1", 30)
-//Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/SearchByName'), 0)
+Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/SearchStoreByName'),"NStore1", 30)
+//Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/SearchStoreByName'), 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 

@@ -20,7 +20,8 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication("C:/Users/HP/Desktop/queueBusterAPPRelease_3.53.apk", true)
 Mobile.delay(30)
-
+//Mobile.startExistingApplication("C:/Users/HP/Desktop/queueBusterAPPRelease_3.53.apk")
+Mobile.delay(4)
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/InitialLoginButton'), 10)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
@@ -36,7 +37,7 @@ Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.delay(3)
 
-Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/SearchByName'),"NStore1", 30)
+Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/SearchStoreByName'),"NStore1", 30)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
@@ -75,7 +76,7 @@ Mobile.delay(4)
 
 
 
-//Mobile.closeApplication()
+Mobile.closeApplication()
 
 
 

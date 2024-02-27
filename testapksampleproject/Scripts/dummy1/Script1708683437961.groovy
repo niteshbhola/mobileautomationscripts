@@ -16,4 +16,30 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+Mobile.callTestCase(findTestCase('Test Cases/Common_LoginCase'), null, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(30)
+Mobile.tap(findTestObject('null'), 30)
+Mobile.delay(3)
+Mobile.tap(findTestObject('null') , 10)
+Mobile.delay(3)
 
+//Mobile.verifyMatch("7717747947","7717747947", false)
+Mobile.setText(findTestObject('null'), "7717747947", 30)
+Mobile.delay(30)
+//Mobile.setText(findTestObject('null'),findTestData("TestData").getValue("CUSTOMERNAME", 1), 10)
+Mobile.verifyMatch("Deepak", "Deepak", false)
+
+Mobile.delay(3)
+
+Mobile.tap(findTestObject('null'), 10)
+
+Mobile.delay(3)
+Mobile.tap(findTestObject('null'), 10)
+Mobile.delay(3)
+Mobile.tap(findTestObject('null'), 10)
+Mobile.delay(3)
+//Mobile.tap(findTestObject('null'), 10)
+Mobile.setText(findTestObject('null'),"300", 10)
+Mobile.delay(3)
+Mobile.tap(findTestObject('null'), 10)
+Mobile.delay(4)

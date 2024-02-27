@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Master Logout</description>
-   <name>SC001_TC002</name>
+   <name>LoginSelectStoreMasterLogout</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>2887ad1f-aa69-4f8f-a245-c9411c78a98f</testCaseGuid>

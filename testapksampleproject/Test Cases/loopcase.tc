@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Xcases</name>
+   <name>loopcase</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>520dee7f-f699-426d-91e4-bad0dbae77c6</testCaseGuid>
+   <testCaseGuid>93ff3845-613a-4288-8e06-69f791e755df</testCaseGuid>
 </TestCaseEntity>
