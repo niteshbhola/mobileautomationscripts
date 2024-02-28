@@ -6,6 +6,7 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
@@ -20,8 +21,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication("C:/Users/HP/Desktop/queueBusterAPPRelease_3.53.apk", true)
 Mobile.delay(30)
-//Mobile.startExistingApplication("C:/Users/HP/Desktop/queueBusterAPPRelease_3.53.apk")
-Mobile.delay(4)
+
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/InitialLoginButton'), 10)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
@@ -58,13 +58,17 @@ Mobile.delay(2)
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/BusinessProfile'), 30)
 
 Mobile.delay(5)
-//Mobile.verifyMatch(null, null, false, FailureHandling.OPTIONAL)
+
+
+/*   
 if (Mobile.verifyMatch("47410","47410", false, FailureHandling.OPTIONAL)) {
-	print("right info")
+	print("Right info")
 }
-else ( print("wrong info")){
+else ( print("Wrong info")){
 	
 }
+*/
+
 Mobile.delay(2)
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/MasterLogout'), 30)
 
@@ -74,9 +78,7 @@ Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/YesMasterLogout'
 
 Mobile.delay(4)
 
-
-
-Mobile.closeApplication()
+//Mobile.closeApplication()
 
 
 

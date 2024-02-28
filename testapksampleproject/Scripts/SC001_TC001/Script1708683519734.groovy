@@ -18,38 +18,63 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication("C:/Users/HP/Desktop/queueBusterAPPRelease_3.53.apk", true)
-Mobile.delay(30)
+Mobile.delay(10)
 //Mobile.startExistingApplication("C:/Users/HP/Desktop/queueBusterAPPRelease_3.53.apk")
 Mobile.delay(4)
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/InitialLoginButton'), 10)
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(3)
 Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/EnterUsername'), '8178331074', 10)
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(3)
 Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/EnterPassword') , '013606', 10)
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(3)
 
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/LoginPostUserPass') , 30)
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(3)
 
 Mobile.delay(3)
 
 Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/SearchStoreByName'),"NStore1", 30)
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(3)
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(3)
 
-Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/RadioNStore1'), 30)
+Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/RadioNStore1'), 60)
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(3)
 
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/Continue'), 60)
 
 Mobile.delay(3)
 
-//Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/Setup'), 30)
+Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/Setup'), 30)
 
 Mobile.delay(2)
+
+Mobile.tap(findTestObject('Object Repository/SC001_TC001_OR/android.widget.TextView - Sync'), 40)
+
+Mobile.delay(5)
+Mobile.tap(findTestObject('Object Repository/SC001_TC001_OR/android.widget.TextView - Master Data'), 60)
+Mobile.delay(3)
+Mobile.tap(findTestObject('Object Repository/SC001_TC001_OR/BackButton_Sync'), 30)
+Mobile.delay(5)
+Mobile.tap(findTestObject('Object Repository/SC001_TC001_OR/Setupbutton'), 30)
+Mobile.delay(5)
+Mobile.tap(findTestObject('Object Repository/SC001_TC001_OR/android.widget.TextView - Billing1'), 30)
+Mobile.delay(5)
+
+//search > selet > pay > 
+
+
+
+
+
+
+
+
+
+
+
