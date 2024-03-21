@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>SearchStoreByName</name>
+   <name>android.widget.TextView - Add Discount</name>
    <tag></tag>
-   <elementGuidId>d6818d68-3007-4bf3-8d9d-7e2f0884f65e</elementGuidId>
+   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,40 +11,40 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>android.widget.AutoCompleteTextView</value>
-      <webElementGuid>900167c9-6e41-4f80-a7f5-cd0a1375ea28</webElementGuid>
+      <value>android.widget.TextView</value>
+      <webElementGuid>6e5a079d-69cb-46ee-a5ba-bff47012166a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>1</value>
-      <webElementGuid>e9fd923c-0f03-4f11-a630-fac38ba04578</webElementGuid>
+      <value>0</value>
+      <webElementGuid>1e6de914-b9cc-42a6-a991-8793733dce5b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Search By Name</value>
-      <webElementGuid>87e61434-ca00-4c03-9803-540779164c12</webElementGuid>
+      <value>Add Discount</value>
+      <webElementGuid>5131214b-e98e-4e72-a24b-677f79c57b1a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>com.dpdtech.application.mpos:id/et_item_search</value>
-      <webElementGuid>8982f03f-5331-4fc3-b348-818ef9b10d46</webElementGuid>
+      <value>com.dpdtech.application.mpos:id/tv_add_discount_button</value>
+      <webElementGuid>e49aba7e-0350-42f8-874a-7f059498656f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
       <value>com.dpdtech.application.mpos</value>
-      <webElementGuid>4f8b3998-9aa0-4c3c-be9e-7e14c3f5dcc9</webElementGuid>
+      <webElementGuid>140510c9-54cf-4144-afd1-cd5f20a33f66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>554841c8-418a-41c0-88b1-d5f5e3b5cf68</webElementGuid>
+      <webElementGuid>b7228132-fd6c-480e-8322-ac2e9a824673</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,7 +60,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ad1ab3e5-dfff-463c-98b2-e8dfa33a2287</webElementGuid>
+      <webElementGuid>146d1a63-64b6-4f42-b19a-c6574d0fc53d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,7 +68,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>56c103d5-fd3f-4d47-950d-56a085f56eb0</webElementGuid>
+      <webElementGuid>63c8f4e7-8f5d-4f66-bc28-f11089d8fa0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,7 +76,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>c21da8a7-70f2-4881-937f-c765617a233c</webElementGuid>
+      <webElementGuid>bf06099b-e20d-48a2-acb9-a55795e0f875</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>73810c25-df2f-40f2-8ea7-3ed4f90b97da</webElementGuid>
+      <webElementGuid>6164349d-6667-477d-82e6-86cea9f746c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,7 +92,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>fc101b90-51e4-4b67-aff0-e0ba441865ff</webElementGuid>
+      <webElementGuid>dc06c518-7155-4d8b-9498-eda97c1395cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -100,15 +100,15 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4a205184-3e9f-4574-83f8-f950d7b804b1</webElementGuid>
+      <webElementGuid>7c677a66-f4f9-40c0-be6e-2bc0836bee03</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>long-clickable</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>9d860a95-81d1-4836-ade7-53f4f7f500c5</webElementGuid>
+      <value>false</value>
+      <webElementGuid>10855b3f-9b6a-44c9-8ea6-41b8d21f2ebe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -116,7 +116,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4f78f284-4b54-4d12-aa13-2e77c890129f</webElementGuid>
+      <webElementGuid>7252c2e1-5361-400a-a849-e67641deff47</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -124,47 +124,47 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>0052ac10-6e37-4ac4-be16-d197530c4eb5</webElementGuid>
+      <webElementGuid>932b68cb-d829-4a7a-8f29-5b2753daedb8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>132</value>
-      <webElementGuid>ccd78804-efbd-4f23-8325-cbe17ffddb5b</webElementGuid>
+      <value>36</value>
+      <webElementGuid>09988a0a-816f-4760-ae74-0f128f6de8bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>198</value>
-      <webElementGuid>c5d6b4c9-4d18-49d6-9fce-d6a268a3456e</webElementGuid>
+      <value>1367</value>
+      <webElementGuid>f32bfe10-8285-416d-bde3-d07e14adc82d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>516</value>
-      <webElementGuid>f2679005-d02e-4448-869a-10475e73e308</webElementGuid>
+      <value>312</value>
+      <webElementGuid>9fdd435f-1ad7-42ff-8295-b4ff463eb109</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>86</value>
-      <webElementGuid>3f6b49fc-9001-49ed-ba2b-48e85b14d774</webElementGuid>
+      <value>57</value>
+      <webElementGuid>383a4132-edc6-4147-8d93-1a1cb6fc5563</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[132,198][648,284]</value>
-      <webElementGuid>e765ac63-d058-42a7-b657-2b1ecdfb6544</webElementGuid>
+      <value>[36,1367][348,1424]</value>
+      <webElementGuid>89d6889b-ab3f-4915-a48a-3897e205b2ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -172,16 +172,16 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>7d7837c0-48f4-4710-83fe-f6db8ea98a94</webElementGuid>
+      <webElementGuid>442d3765-6f75-435f-a178-08f2a549e6f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.AutoCompleteTextView[1]</value>
-      <webElementGuid>5343f07b-fe7f-460d-9070-6eede44ed0d8</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]</value>
+      <webElementGuid>ed02264e-49f2-4fbd-8714-f9ac9dfdef17</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.AutoCompleteTextView' and (@text = 'Search By Name' or . = 'Search By Name') and @resource-id = 'com.dpdtech.application.mpos:id/et_item_search' and @package = 'com.dpdtech.application.mpos']</locator>
-   <locatorStrategy>XPATH</locatorStrategy>
+   <locator>//*[@class = 'android.widget.TextView' and (@text = 'Add Discount' or . = 'Add Discount') and @resource-id = 'com.dpdtech.application.mpos:id/tv_add_discount_button']</locator>
+   <locatorStrategy>ATTRIBUTES</locatorStrategy>
 </MobileElementEntity>

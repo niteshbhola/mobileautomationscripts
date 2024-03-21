@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>SearchStoreByName</name>
+   <name>Confirm Payment</name>
    <tag></tag>
-   <elementGuidId>d6818d68-3007-4bf3-8d9d-7e2f0884f65e</elementGuidId>
+   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,40 +11,40 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>android.widget.AutoCompleteTextView</value>
-      <webElementGuid>900167c9-6e41-4f80-a7f5-cd0a1375ea28</webElementGuid>
+      <value>android.widget.TextView</value>
+      <webElementGuid>bd1c929e-e62e-4737-b593-52a0b936bf98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>1</value>
-      <webElementGuid>e9fd923c-0f03-4f11-a630-fac38ba04578</webElementGuid>
+      <value>0</value>
+      <webElementGuid>69e605d2-6286-4c06-bb93-584e2e687f29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Search By Name</value>
-      <webElementGuid>87e61434-ca00-4c03-9803-540779164c12</webElementGuid>
+      <value>Confirm Payment</value>
+      <webElementGuid>bda94463-232a-4f44-a4c9-9c334c9cdecb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>com.dpdtech.application.mpos:id/et_item_search</value>
-      <webElementGuid>8982f03f-5331-4fc3-b348-818ef9b10d46</webElementGuid>
+      <value>com.dpdtech.application.mpos:id/tv_confirm_payment</value>
+      <webElementGuid>c3fe1bc3-1040-48b7-b25c-4d8f736f41d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
       <value>com.dpdtech.application.mpos</value>
-      <webElementGuid>4f8b3998-9aa0-4c3c-be9e-7e14c3f5dcc9</webElementGuid>
+      <webElementGuid>ee622521-8380-447f-a699-c6a0c014af22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>554841c8-418a-41c0-88b1-d5f5e3b5cf68</webElementGuid>
+      <webElementGuid>b9d1ea4f-0146-4f7e-a054-fe4b4c93b807</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,7 +60,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ad1ab3e5-dfff-463c-98b2-e8dfa33a2287</webElementGuid>
+      <webElementGuid>ac3a349c-58d8-48ad-9ce5-fbad419725c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,7 +68,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>56c103d5-fd3f-4d47-950d-56a085f56eb0</webElementGuid>
+      <webElementGuid>b2935056-9c19-4ef8-9afe-d280cc00271d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,7 +76,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>c21da8a7-70f2-4881-937f-c765617a233c</webElementGuid>
+      <webElementGuid>4076741a-4bad-409b-b431-bfd625db0867</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>73810c25-df2f-40f2-8ea7-3ed4f90b97da</webElementGuid>
+      <webElementGuid>4ea2da37-82fc-4d76-9436-0e49773c9967</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,7 +92,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>fc101b90-51e4-4b67-aff0-e0ba441865ff</webElementGuid>
+      <webElementGuid>b52400b5-aff4-42b7-9174-26069ecb6e37</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -100,15 +100,15 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4a205184-3e9f-4574-83f8-f950d7b804b1</webElementGuid>
+      <webElementGuid>702aa4e6-714a-4a2b-939e-32f88dad288e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>long-clickable</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>9d860a95-81d1-4836-ade7-53f4f7f500c5</webElementGuid>
+      <value>false</value>
+      <webElementGuid>ceb7031c-6a86-4c16-8f52-e27f52a796af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -116,7 +116,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4f78f284-4b54-4d12-aa13-2e77c890129f</webElementGuid>
+      <webElementGuid>af70081c-f715-44da-b801-3d28e2291efb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -124,47 +124,47 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>0052ac10-6e37-4ac4-be16-d197530c4eb5</webElementGuid>
+      <webElementGuid>1b616a33-4991-40f8-aa72-9b5bf8242bb7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>132</value>
-      <webElementGuid>ccd78804-efbd-4f23-8325-cbe17ffddb5b</webElementGuid>
+      <value>12</value>
+      <webElementGuid>d5535622-16e1-4fbf-8c81-a0b6e331b260</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>198</value>
-      <webElementGuid>c5d6b4c9-4d18-49d6-9fce-d6a268a3456e</webElementGuid>
+      <value>1434</value>
+      <webElementGuid>12b44aec-5d20-4803-81ac-b2fa42c13cc6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>516</value>
-      <webElementGuid>f2679005-d02e-4448-869a-10475e73e308</webElementGuid>
+      <value>696</value>
+      <webElementGuid>03ffce23-1792-4955-826d-7f78d0ce532b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>86</value>
-      <webElementGuid>3f6b49fc-9001-49ed-ba2b-48e85b14d774</webElementGuid>
+      <value>73</value>
+      <webElementGuid>e077a61d-abce-49ed-b307-06fc71a2027a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[132,198][648,284]</value>
-      <webElementGuid>e765ac63-d058-42a7-b657-2b1ecdfb6544</webElementGuid>
+      <value>[12,1434][708,1507]</value>
+      <webElementGuid>aa2fceee-10a4-4ad5-8ae3-b4c17e94994a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -172,16 +172,16 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>7d7837c0-48f4-4710-83fe-f6db8ea98a94</webElementGuid>
+      <webElementGuid>111b4673-8462-4a4f-9f66-5a35805be01b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.AutoCompleteTextView[1]</value>
-      <webElementGuid>5343f07b-fe7f-460d-9070-6eede44ed0d8</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[2]/android.widget.LinearLayout[1]/android.widget.TextView[1]</value>
+      <webElementGuid>ffdce700-8808-40d3-a53b-73174479aff9</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.AutoCompleteTextView' and (@text = 'Search By Name' or . = 'Search By Name') and @resource-id = 'com.dpdtech.application.mpos:id/et_item_search' and @package = 'com.dpdtech.application.mpos']</locator>
-   <locatorStrategy>XPATH</locatorStrategy>
+   <locator>//*[@class = 'android.widget.TextView' and (@text = 'Confirm Payment' or . = 'Confirm Payment') and @resource-id = 'com.dpdtech.application.mpos:id/tv_confirm_payment']</locator>
+   <locatorStrategy>ATTRIBUTES</locatorStrategy>
 </MobileElementEntity>

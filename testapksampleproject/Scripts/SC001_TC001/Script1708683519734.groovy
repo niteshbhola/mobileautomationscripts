@@ -32,11 +32,11 @@ Mobile.delay(3)
 
 Mobile.tap(findTestObject('Object Repository/Common_LoginCaseOR/LoginPostUserPass') , 30)
 
-Mobile.delay(3)
+Mobile.delay(6)
 
-Mobile.delay(3)
+//Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/SearchStoreByName'),"NStore1", 30)
 
-Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/SearchStoreByName'),"NStore1", 30)
+Mobile.setText(findTestObject('Object Repository/Common_LoginCaseOR/StoreSearchByNameUpdated'),"NStore1", 0)
 
 Mobile.delay(3)
 
@@ -65,8 +65,29 @@ Mobile.tap(findTestObject('Object Repository/SC001_TC001_OR/Setupbutton'), 30)
 Mobile.delay(5)
 Mobile.tap(findTestObject('Object Repository/SC001_TC001_OR/android.widget.TextView - Billing1'), 30)
 Mobile.delay(5)
+Mobile.tap(findTestObject('Object Repository/SC001_TC001_OR/All Items'), 30)
+Mobile.delay(5)
+Mobile.tap(findTestObject('Object Repository/SC001_TC001_OR/TestPro007'), 30)
+Mobile.delay(4)
+Mobile.tap(findTestObject('Object Repository/SC001_TC001_OR/1Item'), 30)
+Mobile.delay(2)
+Mobile.tap(findTestObject('Object Repository/SC001_TC001_OR/Pay1'), 30)
+Mobile.delay(3)
+Mobile.tap(findTestObject('Object Repository/SC001_TC001_OR/Cash'), 30)
+Mobile.delay(3)
 
-//search > selet > pay > 
+
+Mobile.tap(findTestObject('Object Repository/SC001_TC001_OR/Accept630.00'), 30)
+Mobile.delay(4)
+
+Mobile.tap(findTestObject('Object Repository/SC001_TC001_OR/Confirm Payment'), 30)
+Mobile.delay(3)
+
+
+
+
+
+
 
 
 
